@@ -1,0 +1,3 @@
+# The reconciler itself is standard-library only.
+# Tests use pytest:
+pytest
