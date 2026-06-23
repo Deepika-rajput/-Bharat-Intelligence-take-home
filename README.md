@@ -1,14 +1,5 @@
 # Bharat Intelligence take-home
 
-This should take around 8–12 hours, and you're welcome to use whatever AI tools you're fastest with - Claude, Cursor, Copilot, ChatGPT, all fair game. We're hiring for problem-solving and for getting code right, not for how fast you type.
-
-
-The situation
-
-Bharat Intelligence pays roughly 12,000 field workers across rural India for surveying, crop inspection, and data-entry work. This repo is the little tool we use to check that the payout pipeline paid everyone the right amount. It works out what each worker should have earned per shift (from their logged hours and the wage-rate table) and reconciles that against what the bank actually transferred.
-
-It runs, and the numbers it produces look plausible. They're wrong, though - they don't match what finance is seeing on the ground. Nobody who wrote this is still on the team, and it's about to be used to pay people, so we need it fixed first.
-
 
 Run it
 
@@ -16,36 +7,27 @@ Run it
     python -m reconciler serve          # serves the triage stub at localhost:8000/app/
     pip install -r requirements.txt && python -m pytest    # tests
 
-The data is in data/ (workers, supervisor_logs, bank_transfers, wage_rates). It's real-world messy - read it carefully before you trust anything the tool says about it.
+What I found and what I fixed
+intially i analysed the dataset (all four data files)he real-world messiness (phone numbers with +91 prefixes, mixed name casing, negative bank transfers, overlapping wage rate periods) made it clear the bugs wouldn't be obvious from the code alone. 
+below are the listed bugs that i encountred
+Bug 1 — Rate lookup used entry timestamp instead of work date
+(reconciler/reconcile.py)
+The rate was being looked up using the date extracted from entered_at (when the supervisor submitted the log) rather than work_date (when the work actually happened). Eight logs have different dates for these two fields, and three of them cross a wage rate boundary — so those workers were being calculated at the wrong hourly rate. Fixed by using log["work_date"] directly for the rate lookup.
 
-The reconciler itself is barebones on purpose - a rough first cut someone threw together. Build on it, or if you'd rather, throw it out and write your own from scratch. Either is completely fine. What matters is where you land - correct numbers, clean code, tests behind them - not whose code it is.
+Bug 2 — Bank reversals silently dropped (reconciler/reconcile.py)
+There are four negative entries in bank_transfers.csv — a correction batch dated April 2. The code had an explicit if rupees > 0 guard that skipped them entirely. This meant four workers showed more money paid than they actually received, hiding real underpayments. Fixed by removing the guard and accumulating all transfers including negatives, directly in integer paise to avoid float precision issues.
 
+Bug 3 — expected_paise showed worker total across all shifts, not per-shift amount (reconciler/reconcile.py)
+The output contract says one row per shift. But expected_paise on every row was the worker's cumulative total across all their shifts — the per-shift amount was calculated correctly inside the loop but then discarded in favour of the running total. Found this by looking at workers with multiple logs and seeing identical expected_paise values on every row that matched neither shift individually. Fixed by storing the per-shift expected_inr and using that for expected_paise in each output row, while keeping the worker total only for the discrepancy calculation.
 
-Your task
+Bug 4 — Unresolved logs silently dropped instead of escalated (reconciler/reconcile.py)
+Two logs (L00201, L00202) had phone numbers with no match in the worker registry and simply disappeared from the output. The contract explicitly says to use worker_id = "ESCALATE" for unresolvable shifts. Fixed by emitting an ESCALATE row for each unmatched log with confidence = 0.0 and review_reason = "UNRESOLVED_WORKER".
 
-1. Find and fix what's wrong. The output is wrong in more than one way. Track down each problem and fix it - rewriting whatever you need to - and add a test that would have caught it. We care most about the fixes you can prove.
+Bug 5 — "Lowest rate" logic wrong on overlapping rate periods (reconciler/rates.py)
+The docstring said "lowest applicable hourly rate" — a red flag worth checking. The wage_rates data has overlapping date ranges for Data Entry / MH / junior: a general 340/hr rate from March 1 onward, and a specific 320/hr rate for March 10–20 only. The lowest-rate logic picked 320 for any date where both rows were valid, including March 24 where only the 340 rate applies. This silently underpaid 33 logs — the largest single money error. Fixed with most-specific-window-wins: when multiple rate rows cover the same date, the one with the shortest effective window takes priority (a specific override supersedes a general rate). Ties broken by latest effective_from.
 
-2. Make the output conform to this contract - one row per shift, money in integer paise:
+Each fix has a pinned test in tests/test_contract.py that fails against the original code and passes with the fix. The test suite grew from 3 to 8 tests total.
 
-   log_id, worker_id, expected_paise, paid_paise, discrepancy_paise,
-   needs_manual_review, review_reason, confidence
-
-   If you can't confidently resolve a shift to a worker, set worker_id to "ESCALATE" rather than guessing. review_reason is a short fixed set of reasons, not free text. confidence should mean something - a row you weren't sure about shouldn't read the same as a clean one. tests/test_contract.py encodes this contract and fails today; making it pass is part of the job.
-
-3. Extend it, two small things:
-   - A new vendor feed lands on day 3 (we'll send curveball_logs.csv). It's a different shape from the others. Fold it in without rewriting your pipeline.
-   - Turn app/ into a triage view an ops person could actually use: the rows that need review, why, the amount at risk, sorted or filterable, with a way to mark one resolved. Any stack is fine.
-
-
-What to send back
-
-The repo with your fixes and tests, and a short README section (a few paragraphs, not an essay) covering: what was broken and how you found it, anything you couldn't resolve and how you handled it, and what you'd do next with more time. Plus a 10-minute screen recording walking us through it, no edits.
-
-
-How we'll look at it
-
-In rough order: did you find the bugs and can you prove the fixes; is the money right to the paise; is the code something we'd want to inherit; does the extension fit cleanly; is the triage view actually usable. A fix with a test that pins it beats a long writeup.
-
-Read the data before you start. If you're stuck at 2 AM, cut scope and get the core solid - a few bugs fixed and proven, with the money correct, beats a half-finished sweep.
-
-Good luck - we're rooting for you!
+What I'd do next with more time
+The confidence score is currently binary (1.0 for clean, 0.75 for flagged). A more useful signal would factor in match quality — a worker resolved by an exact phone match is more trustworthy than one resolved after stripping country codes or normalising formatting. ESCALATE rows already get 0.0; the middle tier needs more granularity.
+The triage UI works as a static page but storing resolved state in memory means it resets on reload. Persisting resolved decisions (even to localStorage) would make it actually usable across a session.
