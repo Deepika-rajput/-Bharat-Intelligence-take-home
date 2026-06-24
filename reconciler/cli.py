@@ -34,10 +34,17 @@ def run_reconcile():
     with open(os.path.join(ROOT, "output.json"), "w") as f:
         json.dump(rows, f, indent=2)
     flagged = sum(1 for r in rows if r["needs_manual_review"])
-    net = (
-    sum(r["paid_paise"] for r in {r["worker_id"]: r for r in rows}.values())
-    - sum(r["expected_paise"] for r in {r["worker_id"]: r for r in rows}.values())) / 100
-    print(f"Reconciled {len(rows)} logs across {len({r['worker_id'] for r in rows})} workers.")
+    # expected_paise is per-shift so sum every row; paid_paise is worker-total so
+    # only count each worker once to avoid double-counting multi-shift workers.
+    real_rows = [r for r in rows if r["worker_id"] != "ESCALATE"]
+    total_owed = sum(r["expected_paise"] for r in real_rows)
+    seen = {}
+    for r in real_rows:
+        seen.setdefault(r["worker_id"], r["paid_paise"])
+    total_paid = sum(seen.values())
+    net = (total_paid - total_owed) / 100
+    worker_count = len({r["worker_id"] for r in rows})
+    print(f"Reconciled {len(rows)} logs across {worker_count} workers.")
     print(f"Flagged for review: {flagged}")
     print(f"Net (paid - owed): Rs {net:,.2f}")
     print("Wrote output.csv and output.json")
