@@ -8,7 +8,7 @@ Run it
     pip install -r requirements.txt && python -m pytest    # tests
 
 What I found and what I fixed
-intially i analysed the dataset (all four data files)he real-world messiness (phone numbers with +91 prefixes, mixed name casing, negative bank transfers, overlapping wage rate periods) made it clear the bugs wouldn't be obvious from the code alone. 
+intially i analysed the dataset (all four data files)real-world messiness (phone numbers with +91 prefixes, mixed name casing, negative bank transfers, overlapping wage rate periods) made it clear the bugs wouldn't be obvious from the code alone. 
 below are the listed bugs that i encountred
 Bug 1 — Rate lookup used entry timestamp instead of work date
 (reconciler/reconcile.py)
