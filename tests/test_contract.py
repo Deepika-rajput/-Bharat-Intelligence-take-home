@@ -38,18 +38,24 @@ def test_confidence_is_not_uniform():
 # --- bug-pinning tests ---
 
 def test_unresolved_logs_are_escalated_not_dropped():
-    """Bug 4: logs that can't be matched to a worker must appear as ESCALATE rows,
-    not silently disappear from the output."""
+    """Logs that can't be matched to a worker must appear as ESCALATE rows.
+
+    Two logs (L00201, L00202) have phones not in the registry at all → UNRESOLVED_WORKER.
+    One log (L00181) has a phone shared by two workers and a name too ambiguous to
+    disambiguate ('R. Sharma' matches both 'Rohit Sharma' and 'Renu Sharma') → AMBIGUOUS_IDENTITY.
+    All three must appear as ESCALATE rows rather than silently vanishing.
+    """
     rows = _rows()
     worker_ids = {r["worker_id"] for r in rows}
-    # L00201 and L00202 have phones not in workers.csv - they must be ESCALATE
     assert "ESCALATE" in worker_ids, "unresolved logs must produce ESCALATE rows"
     escalated = [r for r in rows if r["worker_id"] == "ESCALATE"]
-    assert len(escalated) == 2, f"expected 2 ESCALATE rows, got {len(escalated)}"
+    assert len(escalated) == 3, f"expected 3 ESCALATE rows (2 unresolved + 1 ambiguous), got {len(escalated)}"
+    reasons = {r["review_reason"] for r in escalated}
+    assert "UNRESOLVED_WORKER" in reasons
+    assert "AMBIGUOUS_IDENTITY" in reasons
     for r in escalated:
         assert r["needs_manual_review"] is True
-        assert r["review_reason"] == "UNRESOLVED_WORKER"
-        assert r["confidence"] == 0.0
+        assert r["confidence"] < 1.0
 
 
 def test_negative_transfers_reduce_paid_amount():
@@ -131,3 +137,29 @@ def test_expected_paise_is_per_shift_not_worker_total():
     combined = rows["L00172"]["expected_paise"] + rows["L00173"]["expected_paise"]
     assert rows["L00172"]["expected_paise"] != combined
     assert rows["L00173"]["expected_paise"] != combined
+
+
+def test_phone_collision_resolved_by_name():
+    """Identity bug: five phone numbers are shared by two workers each.
+    The original build_phone_index used setdefault, silently keeping the first
+    worker and making the second unreachable.  Resolution must use name-token
+    matching to pick the correct worker when a phone is ambiguous.
+
+    Spot-checks:
+      - L00162 name='Meena Rao'  on shared phone → W0125 (Meena Rao), not W0126
+      - L00163 name='Mohit S.'   on shared phone → W0126 (Mohit Sharma), not W0125
+      - L00165 name='Vinod Naidu' on shared phone → W0128, not W0127
+      - L00164 name='Dinesh Kumari' on shared phone → W0127, not W0128
+    """
+    load = lambda n: io_load.load(os.path.join(DATA, n))
+    rows = {r["log_id"]: r for r in reconcile.reconcile(
+        load("workers.csv"), load("supervisor_logs.csv"),
+        load("bank_transfers.csv"), load("wage_rates.csv")
+    )}
+    assert rows["L00162"]["worker_id"] == "W0125", "Meena Rao must resolve to W0125"
+    assert rows["L00163"]["worker_id"] == "W0126", "Mohit S. must resolve to W0126"
+    assert rows["L00165"]["worker_id"] == "W0128", "Vinod Naidu must resolve to W0128"
+    assert rows["L00164"]["worker_id"] == "W0127", "Dinesh Kumari must resolve to W0127"
+    # Confidence for name-disambiguated rows must be < 1.0 (not phone-only certainty)
+    for lid in ("L00162", "L00163", "L00165", "L00164"):
+        assert rows[lid]["confidence"] < 1.0, f"{lid} should have reduced confidence (name-matched)"
