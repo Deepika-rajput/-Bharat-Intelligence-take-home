@@ -1,0 +1,2022 @@
+[
+  {
+    "log_id": "L00035",
+    "worker_id": "W0033",
+    "expected_paise": 441000,
+    "paid_paise": 441000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00172",
+    "worker_id": "W0134",
+    "expected_paise": 196000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00065",
+    "worker_id": "W0058",
+    "expected_paise": 250250,
+    "paid_paise": 250250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00077",
+    "worker_id": "W0069",
+    "expected_paise": 160000,
+    "paid_paise": 160000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00107",
+    "worker_id": "W0089",
+    "expected_paise": 154000,
+    "paid_paise": 532000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00028",
+    "worker_id": "W0026",
+    "expected_paise": 172000,
+    "paid_paise": 172000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00199",
+    "worker_id": "W0159",
+    "expected_paise": 292714,
+    "paid_paise": 0,
+    "discrepancy_paise": -292714,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00119",
+    "worker_id": "W0093",
+    "expected_paise": 272000,
+    "paid_paise": 662000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00031",
+    "worker_id": "W0029",
+    "expected_paise": 433500,
+    "paid_paise": 433500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00174",
+    "worker_id": "W0135",
+    "expected_paise": 210000,
+    "paid_paise": 402000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00033",
+    "worker_id": "W0031",
+    "expected_paise": 245000,
+    "paid_paise": 245000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00027",
+    "worker_id": "W0025",
+    "expected_paise": 294000,
+    "paid_paise": 294000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00081",
+    "worker_id": "W0072",
+    "expected_paise": 250250,
+    "paid_paise": 577500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00114",
+    "worker_id": "W0091",
+    "expected_paise": 196000,
+    "paid_paise": 588000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00020",
+    "worker_id": "W0018",
+    "expected_paise": 247682,
+    "paid_paise": 247682,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00157",
+    "worker_id": "W0120",
+    "expected_paise": 221000,
+    "paid_paise": 221000,
+    "discrepancy_paise": -210000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00088",
+    "worker_id": "W0078",
+    "expected_paise": 255000,
+    "paid_paise": 255000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00102",
+    "worker_id": "W0086",
+    "expected_paise": 364000,
+    "paid_paise": 634000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00144",
+    "worker_id": "W0108",
+    "expected_paise": 180000,
+    "paid_paise": 337500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00067",
+    "worker_id": "W0060",
+    "expected_paise": 336000,
+    "paid_paise": 336000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00080",
+    "worker_id": "W0072",
+    "expected_paise": 327250,
+    "paid_paise": 577500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00002",
+    "worker_id": "W0002",
+    "expected_paise": 294000,
+    "paid_paise": 294000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00034",
+    "worker_id": "W0032",
+    "expected_paise": 231000,
+    "paid_paise": 231000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00024",
+    "worker_id": "W0022",
+    "expected_paise": 126000,
+    "paid_paise": 126000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00004",
+    "worker_id": "W0003",
+    "expected_paise": 150000,
+    "paid_paise": 371000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00058",
+    "worker_id": "W0052",
+    "expected_paise": 292714,
+    "paid_paise": 540396,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00189",
+    "worker_id": "W0149",
+    "expected_paise": 337747,
+    "paid_paise": 337748,
+    "discrepancy_paise": 1,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00053",
+    "worker_id": "W0048",
+    "expected_paise": 332500,
+    "paid_paise": 332500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00054",
+    "worker_id": "W0049",
+    "expected_paise": 279500,
+    "paid_paise": 666500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00074",
+    "worker_id": "W0066",
+    "expected_paise": 382500,
+    "paid_paise": 382500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00095",
+    "worker_id": "W0083",
+    "expected_paise": 337500,
+    "paid_paise": 675500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00014",
+    "worker_id": "W0012",
+    "expected_paise": 193500,
+    "paid_paise": 193500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00191",
+    "worker_id": "W0151",
+    "expected_paise": 150000,
+    "paid_paise": 150000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00131",
+    "worker_id": "W0097",
+    "expected_paise": 344000,
+    "paid_paise": 344000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00139",
+    "worker_id": "W0105",
+    "expected_paise": 360264,
+    "paid_paise": 720528,
+    "discrepancy_paise": 360264,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00170",
+    "worker_id": "W0133",
+    "expected_paise": 196000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00006",
+    "worker_id": "W0005",
+    "expected_paise": 336000,
+    "paid_paise": 336000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00011",
+    "worker_id": "W0009",
+    "expected_paise": 225000,
+    "paid_paise": 225000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00130",
+    "worker_id": "W0096",
+    "expected_paise": 196000,
+    "paid_paise": 378000,
+    "discrepancy_paise": -196000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00086",
+    "worker_id": "W0076",
+    "expected_paise": 382500,
+    "paid_paise": 382500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00178",
+    "worker_id": "W0138",
+    "expected_paise": 315231,
+    "paid_paise": 292714,
+    "discrepancy_paise": -585429,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00198",
+    "worker_id": "W0158",
+    "expected_paise": 301000,
+    "paid_paise": 0,
+    "discrepancy_paise": -301000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00022",
+    "worker_id": "W0020",
+    "expected_paise": 357000,
+    "paid_paise": 357000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00084",
+    "worker_id": "W0074",
+    "expected_paise": 168000,
+    "paid_paise": 168000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00032",
+    "worker_id": "W0030",
+    "expected_paise": 252000,
+    "paid_paise": 252000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00153",
+    "worker_id": "W0116",
+    "expected_paise": 312000,
+    "paid_paise": 312000,
+    "discrepancy_paise": -294000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00146",
+    "worker_id": "W0109",
+    "expected_paise": 168000,
+    "paid_paise": 168000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00149",
+    "worker_id": "W0112",
+    "expected_paise": 154000,
+    "paid_paise": 0,
+    "discrepancy_paise": -154000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00087",
+    "worker_id": "W0077",
+    "expected_paise": 231000,
+    "paid_paise": 231000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00066",
+    "worker_id": "W0059",
+    "expected_paise": 315000,
+    "paid_paise": 315000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00075",
+    "worker_id": "W0067",
+    "expected_paise": 306000,
+    "paid_paise": 306000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00181",
+    "worker_id": "ESCALATE",
+    "expected_paise": 0,
+    "paid_paise": 0,
+    "discrepancy_paise": 0,
+    "needs_manual_review": true,
+    "review_reason": "AMBIGUOUS_IDENTITY",
+    "confidence": 0.5
+  },
+  {
+    "log_id": "L00120",
+    "worker_id": "W0093",
+    "expected_paise": 210000,
+    "paid_paise": 662000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00127",
+    "worker_id": "W0095",
+    "expected_paise": 225000,
+    "paid_paise": 345000,
+    "discrepancy_paise": -225000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00059",
+    "worker_id": "W0052",
+    "expected_paise": 247682,
+    "paid_paise": 540396,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00050",
+    "worker_id": "W0046",
+    "expected_paise": 294000,
+    "paid_paise": 594000,
+    "discrepancy_paise": 300000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00195",
+    "worker_id": "W0155",
+    "expected_paise": 315000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 49000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00171",
+    "worker_id": "W0133",
+    "expected_paise": 168000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00037",
+    "worker_id": "W0034",
+    "expected_paise": 332500,
+    "paid_paise": 741250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00133",
+    "worker_id": "W0099",
+    "expected_paise": 322500,
+    "paid_paise": 322500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00101",
+    "worker_id": "W0086",
+    "expected_paise": 270000,
+    "paid_paise": 634000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00085",
+    "worker_id": "W0075",
+    "expected_paise": 285000,
+    "paid_paise": 285000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00109",
+    "worker_id": "W0089",
+    "expected_paise": 210000,
+    "paid_paise": 532000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00097",
+    "worker_id": "W0084",
+    "expected_paise": 331500,
+    "paid_paise": 715000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00038",
+    "worker_id": "W0035",
+    "expected_paise": 380000,
+    "paid_paise": 707000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00116",
+    "worker_id": "W0092",
+    "expected_paise": 182000,
+    "paid_paise": 546000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00049",
+    "worker_id": "W0045",
+    "expected_paise": 252000,
+    "paid_paise": 252000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00193",
+    "worker_id": "W0153",
+    "expected_paise": 224000,
+    "paid_paise": 224000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00105",
+    "worker_id": "W0088",
+    "expected_paise": 270000,
+    "paid_paise": 608000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00161",
+    "worker_id": "W0124",
+    "expected_paise": 318500,
+    "paid_paise": 318500,
+    "discrepancy_paise": -343000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00094",
+    "worker_id": "W0082",
+    "expected_paise": 390000,
+    "paid_paise": 682500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00143",
+    "worker_id": "W0107",
+    "expected_paise": 166250,
+    "paid_paise": 356250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00111",
+    "worker_id": "W0090",
+    "expected_paise": 187000,
+    "paid_paise": 637000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00056",
+    "worker_id": "W0050",
+    "expected_paise": 210000,
+    "paid_paise": 210000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00021",
+    "worker_id": "W0019",
+    "expected_paise": 196000,
+    "paid_paise": 196000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00018",
+    "worker_id": "W0016",
+    "expected_paise": 367500,
+    "paid_paise": 367500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00093",
+    "worker_id": "W0082",
+    "expected_paise": 292500,
+    "paid_paise": 682500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00190",
+    "worker_id": "W0150",
+    "expected_paise": 224000,
+    "paid_paise": 224000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00096",
+    "worker_id": "W0083",
+    "expected_paise": 338000,
+    "paid_paise": 675500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00013",
+    "worker_id": "W0011",
+    "expected_paise": 312000,
+    "paid_paise": 312000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00160",
+    "worker_id": "W0124",
+    "expected_paise": 343000,
+    "paid_paise": 318500,
+    "discrepancy_paise": -343000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00051",
+    "worker_id": "W0047",
+    "expected_paise": 337747,
+    "paid_paise": 720528,
+    "discrepancy_paise": 1,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00194",
+    "worker_id": "W0154",
+    "expected_paise": 315000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 49000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00010",
+    "worker_id": "W0008",
+    "expected_paise": 270000,
+    "paid_paise": 660000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00154",
+    "worker_id": "W0118",
+    "expected_paise": 224000,
+    "paid_paise": 208000,
+    "discrepancy_paise": -224000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00103",
+    "worker_id": "W0087",
+    "expected_paise": 331500,
+    "paid_paise": 685500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00138",
+    "worker_id": "W0104",
+    "expected_paise": 322500,
+    "paid_paise": 645000,
+    "discrepancy_paise": 322500,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00126",
+    "worker_id": "W0095",
+    "expected_paise": 165000,
+    "paid_paise": 345000,
+    "discrepancy_paise": -225000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00183",
+    "worker_id": "W0143",
+    "expected_paise": 360264,
+    "paid_paise": 360264,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00147",
+    "worker_id": "W0110",
+    "expected_paise": 180000,
+    "paid_paise": 180000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00117",
+    "worker_id": "W0092",
+    "expected_paise": 196000,
+    "paid_paise": 546000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00118",
+    "worker_id": "W0092",
+    "expected_paise": 168000,
+    "paid_paise": 546000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00042",
+    "worker_id": "W0038",
+    "expected_paise": 126000,
+    "paid_paise": 126000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00112",
+    "worker_id": "W0090",
+    "expected_paise": 240000,
+    "paid_paise": 637000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00186",
+    "worker_id": "W0146",
+    "expected_paise": 255000,
+    "paid_paise": 225165,
+    "discrepancy_paise": -29835,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00044",
+    "worker_id": "W0040",
+    "expected_paise": 315231,
+    "paid_paise": 315231,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00017",
+    "worker_id": "W0015",
+    "expected_paise": 154000,
+    "paid_paise": 154000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00142",
+    "worker_id": "W0107",
+    "expected_paise": 190000,
+    "paid_paise": 356250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00079",
+    "worker_id": "W0071",
+    "expected_paise": 408000,
+    "paid_paise": 408000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00043",
+    "worker_id": "W0039",
+    "expected_paise": 382500,
+    "paid_paise": 382500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00001",
+    "worker_id": "W0001",
+    "expected_paise": 294000,
+    "paid_paise": 294000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00168",
+    "worker_id": "W0131",
+    "expected_paise": 331500,
+    "paid_paise": 331500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00068",
+    "worker_id": "W0061",
+    "expected_paise": 165000,
+    "paid_paise": 165000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00003",
+    "worker_id": "W0003",
+    "expected_paise": 221000,
+    "paid_paise": 371000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00029",
+    "worker_id": "W0027",
+    "expected_paise": 247682,
+    "paid_paise": 247682,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00078",
+    "worker_id": "W0070",
+    "expected_paise": 225000,
+    "paid_paise": 225000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00030",
+    "worker_id": "W0028",
+    "expected_paise": 240000,
+    "paid_paise": 240000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00182",
+    "worker_id": "W0142",
+    "expected_paise": 315231,
+    "paid_paise": 315231,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00012",
+    "worker_id": "W0010",
+    "expected_paise": 408000,
+    "paid_paise": 608000,
+    "discrepancy_paise": 200000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00184",
+    "worker_id": "W0144",
+    "expected_paise": 247682,
+    "paid_paise": 247682,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00185",
+    "worker_id": "W0145",
+    "expected_paise": 292714,
+    "paid_paise": 292714,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00177",
+    "worker_id": "W0136",
+    "expected_paise": 270198,
+    "paid_paise": 585429,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00040",
+    "worker_id": "W0036",
+    "expected_paise": 250250,
+    "paid_paise": 250250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00155",
+    "worker_id": "W0118",
+    "expected_paise": 208000,
+    "paid_paise": 208000,
+    "discrepancy_paise": -224000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00180",
+    "worker_id": "W0138",
+    "expected_paise": 270198,
+    "paid_paise": 292714,
+    "discrepancy_paise": -585429,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00113",
+    "worker_id": "W0091",
+    "expected_paise": 210000,
+    "paid_paise": 588000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00104",
+    "worker_id": "W0087",
+    "expected_paise": 354000,
+    "paid_paise": 685500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00173",
+    "worker_id": "W0134",
+    "expected_paise": 168000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00025",
+    "worker_id": "W0023",
+    "expected_paise": 170000,
+    "paid_paise": 170000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00124",
+    "worker_id": "W0094",
+    "expected_paise": 176000,
+    "paid_paise": 416000,
+    "discrepancy_paise": -176000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00019",
+    "worker_id": "W0017",
+    "expected_paise": 238000,
+    "paid_paise": 238000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00163",
+    "worker_id": "W0126",
+    "expected_paise": 195000,
+    "paid_paise": 195000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00073",
+    "worker_id": "W0065",
+    "expected_paise": 315231,
+    "paid_paise": 585429,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00122",
+    "worker_id": "W0094",
+    "expected_paise": 240000,
+    "paid_paise": 416000,
+    "discrepancy_paise": -176000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00132",
+    "worker_id": "W0098",
+    "expected_paise": 279500,
+    "paid_paise": 279500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00090",
+    "worker_id": "W0080",
+    "expected_paise": 270000,
+    "paid_paise": 270000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00134",
+    "worker_id": "W0100",
+    "expected_paise": 236500,
+    "paid_paise": 236500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00150",
+    "worker_id": "W0114",
+    "expected_paise": 315000,
+    "paid_paise": 338000,
+    "discrepancy_paise": -315000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00187",
+    "worker_id": "W0147",
+    "expected_paise": 382500,
+    "paid_paise": 337747,
+    "discrepancy_paise": -44753,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00152",
+    "worker_id": "W0116",
+    "expected_paise": 294000,
+    "paid_paise": 312000,
+    "discrepancy_paise": -294000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00061",
+    "worker_id": "W0054",
+    "expected_paise": 250250,
+    "paid_paise": 250250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00046",
+    "worker_id": "W0042",
+    "expected_paise": 269500,
+    "paid_paise": 269500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00197",
+    "worker_id": "W0157",
+    "expected_paise": 315000,
+    "paid_paise": 0,
+    "discrepancy_paise": -315000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00196",
+    "worker_id": "W0156",
+    "expected_paise": 140000,
+    "paid_paise": 0,
+    "discrepancy_paise": -140000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00156",
+    "worker_id": "W0120",
+    "expected_paise": 210000,
+    "paid_paise": 221000,
+    "discrepancy_paise": -210000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00151",
+    "worker_id": "W0114",
+    "expected_paise": 338000,
+    "paid_paise": 338000,
+    "discrepancy_paise": -315000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00148",
+    "worker_id": "W0111",
+    "expected_paise": 176000,
+    "paid_paise": 0,
+    "discrepancy_paise": -176000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00137",
+    "worker_id": "W0103",
+    "expected_paise": 269500,
+    "paid_paise": 539000,
+    "discrepancy_paise": 269500,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00069",
+    "worker_id": "W0062",
+    "expected_paise": 126000,
+    "paid_paise": 126000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00062",
+    "worker_id": "W0055",
+    "expected_paise": 337747,
+    "paid_paise": 337748,
+    "discrepancy_paise": 1,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00169",
+    "worker_id": "W0132",
+    "expected_paise": 165000,
+    "paid_paise": 165000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00026",
+    "worker_id": "W0024",
+    "expected_paise": 279500,
+    "paid_paise": 279500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00041",
+    "worker_id": "W0037",
+    "expected_paise": 336000,
+    "paid_paise": 336000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00060",
+    "worker_id": "W0053",
+    "expected_paise": 180132,
+    "paid_paise": 380132,
+    "discrepancy_paise": 200000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00164",
+    "worker_id": "W0127",
+    "expected_paise": 196000,
+    "paid_paise": 196000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00136",
+    "worker_id": "W0102",
+    "expected_paise": 270198,
+    "paid_paise": 540396,
+    "discrepancy_paise": 270198,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00121",
+    "worker_id": "W0093",
+    "expected_paise": 180000,
+    "paid_paise": 662000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00015",
+    "worker_id": "W0013",
+    "expected_paise": 364000,
+    "paid_paise": 364000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00176",
+    "worker_id": "W0136",
+    "expected_paise": 315231,
+    "paid_paise": 585429,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00201",
+    "worker_id": "ESCALATE",
+    "expected_paise": 0,
+    "paid_paise": 0,
+    "discrepancy_paise": 0,
+    "needs_manual_review": true,
+    "review_reason": "UNRESOLVED_WORKER",
+    "confidence": 0.0
+  },
+  {
+    "log_id": "L00057",
+    "worker_id": "W0051",
+    "expected_paise": 238000,
+    "paid_paise": 238000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00082",
+    "worker_id": "W0073",
+    "expected_paise": 150000,
+    "paid_paise": 330000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00007",
+    "worker_id": "W0006",
+    "expected_paise": 292714,
+    "paid_paise": 292714,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00047",
+    "worker_id": "W0043",
+    "expected_paise": 357000,
+    "paid_paise": 357000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00070",
+    "worker_id": "W0063",
+    "expected_paise": 252000,
+    "paid_paise": 252000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00100",
+    "worker_id": "W0085",
+    "expected_paise": 416000,
+    "paid_paise": 686000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00083",
+    "worker_id": "W0073",
+    "expected_paise": 180000,
+    "paid_paise": 330000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00129",
+    "worker_id": "W0096",
+    "expected_paise": 168000,
+    "paid_paise": 378000,
+    "discrepancy_paise": -196000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00145",
+    "worker_id": "W0108",
+    "expected_paise": 157500,
+    "paid_paise": 337500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00089",
+    "worker_id": "W0079",
+    "expected_paise": 215000,
+    "paid_paise": 215000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00125",
+    "worker_id": "W0095",
+    "expected_paise": 180000,
+    "paid_paise": 345000,
+    "discrepancy_paise": -225000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00167",
+    "worker_id": "W0130",
+    "expected_paise": 270000,
+    "paid_paise": 270000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00179",
+    "worker_id": "W0138",
+    "expected_paise": 292714,
+    "paid_paise": 292714,
+    "discrepancy_paise": -585429,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00092",
+    "worker_id": "W0081",
+    "expected_paise": 472000,
+    "paid_paise": 880000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00200",
+    "worker_id": "W0160",
+    "expected_paise": 210000,
+    "paid_paise": 0,
+    "discrepancy_paise": -210000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00005",
+    "worker_id": "W0004",
+    "expected_paise": 442000,
+    "paid_paise": 442000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00140",
+    "worker_id": "W0106",
+    "expected_paise": 168000,
+    "paid_paise": 315000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00162",
+    "worker_id": "W0125",
+    "expected_paise": 315231,
+    "paid_paise": 315231,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00064",
+    "worker_id": "W0057",
+    "expected_paise": 202648,
+    "paid_paise": 202648,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00135",
+    "worker_id": "W0101",
+    "expected_paise": 279500,
+    "paid_paise": 279500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00165",
+    "worker_id": "W0128",
+    "expected_paise": 231000,
+    "paid_paise": 231000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00052",
+    "worker_id": "W0047",
+    "expected_paise": 382780,
+    "paid_paise": 720528,
+    "discrepancy_paise": 1,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00108",
+    "worker_id": "W0089",
+    "expected_paise": 168000,
+    "paid_paise": 532000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00036",
+    "worker_id": "W0034",
+    "expected_paise": 408750,
+    "paid_paise": 741250,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00099",
+    "worker_id": "W0085",
+    "expected_paise": 270000,
+    "paid_paise": 686000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00192",
+    "worker_id": "W0152",
+    "expected_paise": 315231,
+    "paid_paise": 315231,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00023",
+    "worker_id": "W0021",
+    "expected_paise": 236500,
+    "paid_paise": 236500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00016",
+    "worker_id": "W0014",
+    "expected_paise": 264000,
+    "paid_paise": 414000,
+    "discrepancy_paise": 150000,
+    "needs_manual_review": true,
+    "review_reason": "OVERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00123",
+    "worker_id": "W0094",
+    "expected_paise": 176000,
+    "paid_paise": 416000,
+    "discrepancy_paise": -176000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00141",
+    "worker_id": "W0106",
+    "expected_paise": 147000,
+    "paid_paise": 315000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00106",
+    "worker_id": "W0088",
+    "expected_paise": 338000,
+    "paid_paise": 608000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00202",
+    "worker_id": "ESCALATE",
+    "expected_paise": 0,
+    "paid_paise": 0,
+    "discrepancy_paise": 0,
+    "needs_manual_review": true,
+    "review_reason": "UNRESOLVED_WORKER",
+    "confidence": 0.0
+  },
+  {
+    "log_id": "L00076",
+    "worker_id": "W0068",
+    "expected_paise": 189000,
+    "paid_paise": 189000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00166",
+    "worker_id": "W0129",
+    "expected_paise": 247682,
+    "paid_paise": 247682,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 0.9
+  },
+  {
+    "log_id": "L00063",
+    "worker_id": "W0056",
+    "expected_paise": 382780,
+    "paid_paise": 382780,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00188",
+    "worker_id": "W0148",
+    "expected_paise": 176000,
+    "paid_paise": 176000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00159",
+    "worker_id": "W0122",
+    "expected_paise": 292714,
+    "paid_paise": 292714,
+    "discrepancy_paise": -315231,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00158",
+    "worker_id": "W0122",
+    "expected_paise": 315231,
+    "paid_paise": 292714,
+    "discrepancy_paise": -315231,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  },
+  {
+    "log_id": "L00009",
+    "worker_id": "W0008",
+    "expected_paise": 390000,
+    "paid_paise": 660000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00039",
+    "worker_id": "W0035",
+    "expected_paise": 327000,
+    "paid_paise": 707000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00115",
+    "worker_id": "W0091",
+    "expected_paise": 182000,
+    "paid_paise": 588000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00072",
+    "worker_id": "W0065",
+    "expected_paise": 270198,
+    "paid_paise": 585429,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00071",
+    "worker_id": "W0064",
+    "expected_paise": 292500,
+    "paid_paise": 292500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00048",
+    "worker_id": "W0044",
+    "expected_paise": 433500,
+    "paid_paise": 433500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00055",
+    "worker_id": "W0049",
+    "expected_paise": 387000,
+    "paid_paise": 666500,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00091",
+    "worker_id": "W0081",
+    "expected_paise": 408000,
+    "paid_paise": 880000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00045",
+    "worker_id": "W0041",
+    "expected_paise": 292714,
+    "paid_paise": 292714,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00110",
+    "worker_id": "W0090",
+    "expected_paise": 210000,
+    "paid_paise": 637000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00175",
+    "worker_id": "W0135",
+    "expected_paise": 192000,
+    "paid_paise": 402000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00098",
+    "worker_id": "W0084",
+    "expected_paise": 383500,
+    "paid_paise": 715000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00008",
+    "worker_id": "W0007",
+    "expected_paise": 255000,
+    "paid_paise": 255000,
+    "discrepancy_paise": 0,
+    "needs_manual_review": false,
+    "review_reason": "",
+    "confidence": 1.0
+  },
+  {
+    "log_id": "L00128",
+    "worker_id": "W0096",
+    "expected_paise": 210000,
+    "paid_paise": 378000,
+    "discrepancy_paise": -196000,
+    "needs_manual_review": true,
+    "review_reason": "UNDERPAID",
+    "confidence": 0.75
+  }
+]
